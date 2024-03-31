@@ -1,6 +1,6 @@
 ﻿using PrograProducc.Semana2.Formas;
 
-internal class Program
+internal class Program_Formas
 {
     static void Main(string[] args)
     {
