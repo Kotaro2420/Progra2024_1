@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace PrograProducc.Semana2.Formas
 {
-    public class Figura
+    public abstract class Figura
     {
-        public virtual double CalcularArea()
-        {
-            return 0;
-        }
+        public abstract double CalcularArea();
     }
 }
