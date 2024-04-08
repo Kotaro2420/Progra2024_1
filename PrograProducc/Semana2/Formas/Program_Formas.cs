@@ -26,21 +26,21 @@ namespace PrograProducc.Semana2.Formas
                         double baseRectangulo = double.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese la altura del rectángulo:");
                         double alturaRectangulo = double.Parse(Console.ReadLine());
-                        Rectangulo rectangulo = new Rectangulo(baseRectangulo, alturaRectangulo);
+                        Figura rectangulo = new Rectangulo(baseRectangulo, alturaRectangulo);
                         Console.WriteLine("El área del rectángulo es: " + rectangulo.CalcularArea());
                         break;
 
                     case 2:
                         Console.WriteLine("Ingrese el lado del cuadrado:");
                         double ladoCuadrado = double.Parse(Console.ReadLine());
-                        Cuadrado cuadrado = new Cuadrado(ladoCuadrado);
+                        Figura cuadrado = new Cuadrado(ladoCuadrado);
                         Console.WriteLine("El área del cuadrado es: " + cuadrado.CalcularArea());
                         break;
 
                     case 3:
                         Console.WriteLine("Ingrese el radio del círculo:");
                         double radioCirculo = double.Parse(Console.ReadLine());
-                        Circulo circulo = new Circulo(radioCirculo);
+                        Figura circulo = new Circulo(radioCirculo);
                         Console.WriteLine("El área del círculo es: " + circulo.CalcularArea());
                         break;
 
@@ -49,7 +49,7 @@ namespace PrograProducc.Semana2.Formas
                         double baseTriangulo = double.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese la altura del triángulo:");
                         double alturaTriangulo = double.Parse(Console.ReadLine());
-                        Triangulo triangulo = new Triangulo(baseTriangulo, alturaTriangulo);
+                        Figura triangulo = new Triangulo(baseTriangulo, alturaTriangulo);
                         Console.WriteLine("El área del triángulo es: " + triangulo.CalcularArea());
                         break;
 

@@ -22,7 +22,6 @@ public class Juego
 
         while (jugadorVivo && enemigosVivos)
         {
-            // Turno del jugador
             Console.WriteLine("Es el turno del jugador.");
             foreach (Enemigo enemigo in enemigos)
             {
@@ -33,7 +32,6 @@ public class Juego
                 }
             }
 
-            // Turno de los enemigos
             Console.WriteLine("Es el turno de los enemigos.");
             foreach (Enemigo enemigo in enemigos)
             {

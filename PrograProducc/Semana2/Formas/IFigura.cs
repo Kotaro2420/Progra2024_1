@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace PrograProducc.Semana2.Formas
 {
-    public abstract class Figura : IFigura
+    public interface IFigura
     {
-        public abstract double CalcularArea();
+        double CalcularArea();
     }
 }

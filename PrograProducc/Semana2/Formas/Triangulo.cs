@@ -11,14 +11,12 @@ namespace PrograProducc.Semana2.Formas
         private double baseTriangulo;
         private double alturaTriangulo;
 
-        // Constructor
         public Triangulo(double baseTriangulo, double alturaTriangulo)
         {
             this.baseTriangulo = baseTriangulo;
             this.alturaTriangulo = alturaTriangulo;
         }
 
-        // Implementación del método abstracto para calcular el área del triángulo
         public override double CalcularArea()
         {
             return (baseTriangulo * alturaTriangulo) / 2;

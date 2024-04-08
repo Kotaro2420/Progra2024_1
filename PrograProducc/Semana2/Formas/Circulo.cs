@@ -10,13 +10,11 @@ namespace PrograProducc.Semana2.Formas
     {
         private double radioCirculo;
 
-        // Constructor
         public Circulo(double radioCirculo)
         {
             this.radioCirculo = radioCirculo;
         }
 
-        // Implementación del método abstracto para calcular el área del círculo
         public override double CalcularArea()
         {
             return Math.PI * Math.Pow(radioCirculo, 2);
